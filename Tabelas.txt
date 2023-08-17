@@ -1,0 +1,14 @@
+<table> - criação de tabelas
+<th> - título da tabela
+<td> - informações das células
+<tr> - linhas
+colspan - juntar colunas 
+rowspan - juntar linhas (dentro do td)
+
+dotted - pontilhado
+dashed - tracejado
+double - linhas duplas
+solid - linha única
+colapse - juntar linhas
+
+<table>

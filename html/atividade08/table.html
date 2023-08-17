@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+
+    <style>
+        table, th, td {
+            border: 5px solid black;
+            border-collapse: collapse;
+
+        }
+
+        th, td{
+            background-color: chocolate;
+        }
+
+
+    </style>
+
+</head>
+<body>
+<h1 style="text-align: center;">Tabela</h1>
+<!--Tabela com títulos na horizontal-->
+<table>
+    <caption>Agenda de contatos</caption>
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th colspan="2">Telefone/Endereço</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Gustavo</td>
+            <td>30421590</td>
+            <td>Ceilândia City</td>
+        </tr>
+        <tr>
+            <td>Andressa</td>
+            <td>33225698</td>
+            <td>M-norte</td>
+        </tr>
+        <tr>
+            <td>Julia</td>
+            <td>36598741</td>
+            <td rowspan="2">P-Sul</td>
+        </tr>
+    </tbody>
+   <tfoot>
+       <tr>
+           <td colspan="3"><p>Criado por Gustavo</p></td>
+       </tr>
+   </tfoot>
+
+</table>
+<br>
+<!--Tabela com títulos na vertical-->
+<table>
+    <tr>
+        <th>Titulo</th>
+        <td>dados</td>
+    </tr>
+    <tr>
+        <th>Titulo</th>
+        <td>dados</td>
+    </tr>
+    <tr>
+        <th>Titulo</th>
+        <td>dados</td>
+    </tr>
+
+</table>
+
+
+</body>
+</html>
