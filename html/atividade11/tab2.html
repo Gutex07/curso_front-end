@@ -7,8 +7,12 @@
     <title>Tabela 2</title>
 
     <style>
-        table, td, th{
-            border: 1px inset rgb(228, 222, 222)
+        td, th{
+            border: inset
+        }
+        #tabela2{
+            border-right: 6px solid gray;
+            border-bottom: 6px solid gray;
         }
     </style>
 
@@ -63,21 +67,28 @@
         </tbody>
         <tfoot>
             <tr>
-                <td colspan="3" rowspan="4">REFERENCIAS DE CODIGOS</td>
-                <th>COD</th>
-                <th>FUNÇÃO</th>
-            </tr>
-            <tr>
-                <td>001</td>
-                <td>ASSADO</td>
-            </tr>
-            <tr>
-                <td>001</td>
-                <td>GRELHADO</td>
-            </tr>
-            <tr>
-                <td>003</td>
-                <td>AO MOLHO</td>
+                <td colspan="3" rowspan="4"><p>REFERENCIAS DE CODIGOS</p></td>
+                <th>
+                <table id="tabela2">
+                    <tbody>
+                        <tr>
+                            <th>COD</th>
+                            <th><p>FUNÇÃO</p></th>
+                        </tr>
+                        <tr>
+                            <td>001</td>
+                            <td>ASSADO</td>
+                        </tr>
+                        <tr>
+                            <td>001</td>
+                            <td>GRELHADO</td>
+                        </tr>
+                        <tr>
+                            <td>003</td>
+                            <td>AO MOLHO</td>
+                        </tr>
+                    </tbody>
+                </table>
             </tr>
         </tfoot>
         
