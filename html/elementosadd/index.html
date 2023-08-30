@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos adicionais</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav{
+            display: flex;
+            background-color: white;
+            justify-content: center;
+            align-items: center;
+            height: 25px;
+            border-bottom: 3px solid #1f1f1f;
+            box-shadow: 0px 0px 3px gray;
+            z-index: 1;
+            width: 100%;
+            position: absolute;/*ficará fixo relacionado ao item body relativo*/
+        }
+        body{
+            position: relative;/*aguardando alguém para se relacionar com ele*/
+
+            background-image: url(./../../imagens/html.png);
+            background-repeat: no-repeat;
+            background-position: bottom right;
+            background-size: contain;
+            width: 100vh;
+            height: 100vh;
+        }
+        nav > a{
+            margin-right: 10%;
+            text-decoration: none;
+            color: black;
+                       
+        }
+        a:hover{
+            color: red;
+            background-color: black;
+        }
+        #btn-inicio{
+            height: 20px;
+            width: 50px;
+            background-color: black;
+            color: white;
+            position: fixed;
+            right: 100px;
+        }
+    </style>
+
+</head>
+<body>
+    <nav>
+        <!-- <a href="#" id="inicio">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        <a href="#">Link 4</a>
+        <a href="#">Link 5</a>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./../../imagens/dragonz.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./../../imagens/xmen.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./../../imagens/yugioh.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <video src="..." controls autoplay>Video</video>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/9oxS56Ioi0E?si=1uPlAwwxpwSeVWXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+      <iframe width="100%" height="107" src="https://som13.com.br/widgets/embed/racionais-mcs?template=black" frameborder="0" ></iframe>
+      
+      <hr>
+
+      <div id="btn-inicio">
+        <a href="#inicio">Início</a>
+      </div>
+
+      <form action="">
+        <p>Selecione suas tecnologias: </p>
+        <p>
+            <input type="checkbox" name="html" id="ihtml">
+            <label for="ihtml">HTML</label>
+        </p>
+        <p>
+            <input type="checkbox" name="css" id="icss">
+            <label for="icss">CSS</label>
+        </p>
+        <p>
+            <input type="checkbox" name="js" id="ijs">
+            <label for="ijs">JAVASCRIPT</label>
+        </p>
+
+        <p>Selecione seu curso</p>
+        
+        <input type="radio" name="curso" id="ifrontend" value="Frontend">
+        <label for="ifrontend">Front-end</label>
+
+        <input type="radio" name="curso" id="ibancodedados" value="Bancodedados">
+        <label for="ibancodedados">Banco de dados</label>
+
+        <input type="radio" name="curso" id="ibackend" value="Backend">
+        <label for="ibackend">Back-end</label>
+     
+      </form> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
