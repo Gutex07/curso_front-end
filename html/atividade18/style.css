@@ -1,0 +1,46 @@
+*{
+    width: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.301);
+    width: 100vh;
+    height: 100%;
+}
+.container{
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 50px;
+    width: 100%;
+}
+img{
+    width: 450px;
+    height: auto;
+}
+form{
+    padding: 5em;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.campos{
+    margin: 2em;
+    display: block;
+}
+/*tag usada para responsividade com telas menores, anotar o pixel informado do dev tools onde começa afetar o formulário.*/
+/* @media (max-widht: 712px ){
+    .container{
+        flex-direction: column;
+    }
+
+}
+@media (max-width: 500px){
+    img{
+        display: none;
+    }
+} */
